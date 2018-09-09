@@ -1,0 +1,16 @@
+
+b1 = 10
+b2 = 14
+b3 = 12
+
+b1 = float(input("Enter first number: "))
+b2 = float(input("Enter second number: "))
+b3 = float(input("Enter third number: "))
+
+if (b1 >= b2) and (b >= b3):
+   largest = b1
+elif (b2 >= b1) and (b2 >= b3):
+   largest = b2
+else:
+   largest = b3
+print("The largest number between",b1,",",b2,"and",b3,"is",largest)
