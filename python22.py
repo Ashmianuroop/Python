@@ -1,7 +1,7 @@
-f Nmaxelements(list1, N): 
+f Nmaxelements(list1, o): 
     final_list = [] 
   
-    for i in range(0, N):  
+    for i in range(0, o):  
         max1 = 0
           
         for j in range(len(list1)):      
